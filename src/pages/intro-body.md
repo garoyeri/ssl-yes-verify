@@ -2,7 +2,7 @@
 title: Introduction
 ---
 
-## Introduction
+# Introduction
 
 When working in corporate environments, you may encounter SSL Proxies
 from your friendly neighborhood security departments that insist on
