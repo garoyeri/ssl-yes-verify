@@ -1,6 +1,5 @@
 ---
 sidebar_position: 1
-tags: [linux, debian, ubuntu, openssl, java]
 ---
 
 # Debian, Ubuntu, and related Distributions
