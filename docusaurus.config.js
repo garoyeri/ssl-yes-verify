@@ -32,6 +32,13 @@ const config = {
     locales: ['en'],
   },
 
+  future: {
+    v4: {
+      removeLegacyPostBuildHeadAttribute: true,
+    },
+    experimental_faster: true,
+  },
+
   presets: [
     [
       'classic',
