@@ -36,7 +36,7 @@ const config = {
     v4: {
       removeLegacyPostBuildHeadAttribute: true,
     },
-    experimental_faster: true,
+    faster: true,
   },
 
   presets: [
