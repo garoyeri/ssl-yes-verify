@@ -6,6 +6,7 @@ updates:
       interval: weekly
     groups:
       github-actions:
+        applies-to: version-updates
         patterns:
           - "*"
       github-actions-security:
@@ -19,6 +20,7 @@ updates:
       interval: weekly
     groups:
       npm:
+        applies-to: version-updates
         patterns:
           - "*"
       npm-security:
