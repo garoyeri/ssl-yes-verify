@@ -5,29 +5,25 @@ updates:
     schedule:
       interval: weekly
     groups:
-      actions-minor:
-        update-types:
-          - minor
-          - patch
+      github-actions:
+        applies-to: version-updates
+        patterns:
+          - "*"
+      github-actions-security:
+        applies-to: security-updates
+        patterns:
+          - "*"
 
   - package-ecosystem: npm
     directory: /
     schedule:
       interval: weekly
     groups:
-      docusaurus:
+      npm:
+        applies-to: version-updates
         patterns:
-          - "@docusaurus*"
-      npm-development:
-        dependency-type: development
-        update-types:
-          - minor
-          - patch
-        exclude-patterns:
-          - "@docusaurus*"
-      npm-production:
-        dependency-type: production
-        update-types:
-          - patch
-        exclude-patterns:
-          - "@docusaurus*"
+          - "*"
+      npm-security:
+        applies-to: security-updates
+        patterns:
+          - "*"
